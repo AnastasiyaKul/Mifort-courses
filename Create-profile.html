@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Create Profile</title>
+  <link href="style-create-form.css" rel="stylesheet">
+</head>
+<body>
+
+<form class="main-form">
+  <p class="form-text">Зарегистрироваться</p>
+
+  <div class="fileform">
+    <input id="upload" type="file" name="upload" />
+  </div>
+
+  <div class="inp-place">
+    <input type="text" pattern="[A-Za-zА-Яа-яЁё]+" placeholder="Имя" required>
+    <input type="text" pattern="[A-Za-zА-Яа-яЁё]+" placeholder="Фамилия" required>
+    <input type="tel" pattern="[0-9]+" placeholder="Телефон (7 цифр)" minlength="7" required>
+  </div>
+
+  <a href="#"><input type="submit" class="btn" value="Зарегистрироваться"></a>
+</form>
+
+</body>
+</html>

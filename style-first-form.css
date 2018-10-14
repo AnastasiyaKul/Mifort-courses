@@ -5,7 +5,7 @@ body {
 
 .main-form {
   width: 320px;
-  height: 400px;
+  height: 430px;
   background-color: white;
   box-shadow: 0 0 13px 0 rgb(120, 120, 120);
 
@@ -45,14 +45,23 @@ input[type="password"]:focus{
   border-bottom: 2px solid rgb(200, 200, 200);
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn {
-  margin-top: 40px;
+  margin-top: 35px;
   height: 2.7em;
   width: 150px;
 
   border-radius: 10px;
   border: none;
   outline: none;
+}
+
+.last {
+  position: relative;
+  top: -115px;
 }
 
 .btn:hover {

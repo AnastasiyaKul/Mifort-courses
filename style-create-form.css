@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(230, 225, 225);
+  font-size: 24px;
+}
+
+.main-form {
+  width: 680px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 13px 0 rgb(120, 120, 120);
+
+  margin: auto;
+  margin-top: 5%;
+}
+
+.form-text {
+  color: rgb(100, 100, 100);
+  font-weight: bold;
+
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.fileform {
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+
+  position: absolute;
+  left: 420px;
+  top: 190px;
+  text-align: left;
+}
+
+.fileform #upload{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  font-size: 220px;
+  height: 30px;
+  z-index:20;
+}
+
+.inp-place {
+  position: relative;
+  left: 140px;
+  top: 20px;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+}
+
+input[type="text"],
+input[type="tel"]{
+  height: 2em;
+  width: 250px;
+  font-size: 0.8em;
+
+  border: none;
+  border-bottom: 1px solid rgb(230, 225, 225);
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="tel"]{
+  border-bottom: 2px solid rgb(200, 200, 200);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 35px;
+  height: 2.7em;
+  width: 150px;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  position: relative;
+  top: 50px;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 4px 0 rgb(120, 120, 120);
+}
+
+.btn:active {
+  background-color: rgb(170, 170, 170);
+}
